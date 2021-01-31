@@ -20,12 +20,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 #logo {
   width: 100px;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   background: var(--bleu-roi);
@@ -44,7 +45,7 @@ nav a {
   margin-right: 3.8vw;
   color: var(--complementary-color);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 nav a:hover {
