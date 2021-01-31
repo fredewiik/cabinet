@@ -1,0 +1,35 @@
+#logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1770c9;
+  font-size: 80px;
+}
+
+header {
+  position: sticky;
+  top: 8px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  color: darkgray;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: slategray;
+}
