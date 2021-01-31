@@ -62,19 +62,22 @@ nav a:hover {
   color: var(--tertiary-color);
 }
 
+.container {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 #img-top {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   background-color: lightgray;
   font-size: 3em;
 }
 
 #cabinet {
-  width: 100%;
-  padding: 10px;
 }
 
 #cabinet-container {
@@ -125,16 +128,12 @@ hr {
 }
 
 #approche {
-  width: 100%;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 #expertise {
-  width: 100%;
-  padding: 10px;
 }
 
 footer {
