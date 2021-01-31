@@ -8,13 +8,14 @@
 
 body {
   display: grid;
-  grid-template-rows: auto 60vh;
+  grid-template-rows: auto 60vh auto 700px;
   grid-row-gap: 10px;
+  margin-top: 0px;
 }
 
 header {
   position: sticky;
-  top: 10px;
+  top: 0px;
   width: 100%;
   margin: auto;
   display: flex;
@@ -25,8 +26,10 @@ header {
 
 #logo {
   width: 100px;
+  position: relative;
+  top: 10px;
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
   background: var(--bleu-roi);
@@ -39,6 +42,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 15px;
 }
 
 nav a {
@@ -68,6 +72,30 @@ h1 {
   text-shadow: 0 10px 20px rgba(0,0,0,0.19);
 }
 
+h2 {
+  color: var(--complementary-color);
+  font-size: 2.2rem;
+}
+
+hr {
+  width: 50%;
+  color: var(--complementary-color);
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+#approche {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 @media screen and (min-width: 600px) {
   body {
     grid-row-gap: 0px;
@@ -76,6 +104,10 @@ h1 {
   header {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #logo {
+
   }
 
   h1 {
