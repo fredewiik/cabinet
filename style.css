@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-  margin-right: 4vw;
+  margin-right: 3.8vw;
   color: var(--complementary-color);
   text-decoration: none;
   font-size: 1.5rem;
@@ -58,13 +58,13 @@ nav a:hover {
   justify-content: center;
   width: 100%;
   background-color: lightgray;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h1 {
-  font-size: 15vw;
+  font-size: 12vw;
   color: var(--opposite-color);
-  text-shadow: 0 6px 6px rgba(0,0,0,0.23);
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19);
 }
 
 @media screen and (min-width: 600px) {
@@ -78,6 +78,6 @@ h1 {
   }
 
   h1 {
-    font-size: 8vw;
+    font-size: 6vw;
   }
 }
